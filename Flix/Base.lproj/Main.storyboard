@@ -86,7 +86,7 @@
             </objects>
             <point key="canvasLocation" x="-482" y="423"/>
         </scene>
-        <!--Movies-->
+        <!--Superheros-->
         <scene sceneID="qml-es-ByK">
             <objects>
                 <viewController id="Dpd-Zn-cPh" customClass="MoviesGridViewController" sceneMemberID="viewController">
@@ -121,6 +121,7 @@
                                         </view>
                                         <connections>
                                             <outlet property="posterView" destination="Ore-0l-rTC" id="T5p-Wt-fAH"/>
+                                            <segue destination="Akn-Hu-KOn" kind="show" id="sIY-yx-65p"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -129,14 +130,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vHI-cO-sog"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Movies" id="lnF-31-4zU"/>
+                    <navigationItem key="navigationItem" title="Superheros" id="lnF-31-4zU"/>
                     <connections>
                         <outlet property="collectionView" destination="MWE-no-s5O" id="Vho-Ak-QGk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cuq-Ro-iuS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="973.60000000000002" y="421.43928035982015"/>
+            <point key="canvasLocation" x="974" y="449"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="vJG-0l-g4H">
@@ -254,4 +255,7 @@
             <point key="canvasLocation" x="-482" y="-340"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="sIY-yx-65p"/>
+    </inferredMetricsTieBreakers>
 </document>
