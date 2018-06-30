@@ -37,7 +37,9 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user stories:   
+
+In git repo - file name : Flixvideo
 
 <img src='https://imgur.com/3TuNIy7.gif' title='Flix' width='' alt='Flix' />
 
